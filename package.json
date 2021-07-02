@@ -12,6 +12,7 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
+    "produciton": "react-scripts build --production && serve -s build -l 8080",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

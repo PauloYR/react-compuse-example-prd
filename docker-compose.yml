@@ -1,0 +1,8 @@
+version: '3.7'
+services:
+    app:
+        container_name: dockerized-react-app
+        build:            
+            dockerfile: Dockerfile        
+        ports:
+            - '3001:8080'        
